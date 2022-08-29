@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    float r=5; float area;
+    float pi=3.14;
+    area=pi*r*r;
+    printf("area of circle: %f",area);
+    return 0;
+}
