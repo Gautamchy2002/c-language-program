@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int i,j;
+    char a[30],b[30];
+    printf("enter the string");
+    gets(a);
+    printf("enter the second string");
+    gets(b);
+    for(i=0; a[i]!='\0';i++)
+  {
+    if(a[i]==b[j])
+  
+     {
+        printf("the strings are same");
+      }
+    
+   else
+    {
+    printf("the strings are not same");
+    }
+        break;
+    }
+}
