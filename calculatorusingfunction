@@ -1,0 +1,47 @@
+#include <stdio.h>
+#include<conio.h>
+
+void main()
+{
+    void sum();
+    void subtract();
+    void multiply();
+    void division();
+    sum();
+     subtract();
+     multiply();
+     division();
+}
+void sum()
+{
+    int a,b,s;
+    printf("enter the two number ");
+    scanf("%d %d",&a,&b);
+    s=a+b;
+    printf("the addition is %d",s);
+}
+void subtract()
+{
+    int a,b,s;
+    printf("enter the two number ");
+    scanf("%d %d",&a,&b);
+    s=a-b;
+    printf("the subtraction is %d",s);
+}
+void multiply()
+{
+    int a,b,s;
+    printf("enter the two number ");
+    scanf("%d %d",&a,&b);
+    s=a*b;
+    printf("the multiplication is %d",s);
+}
+void division()
+{
+    int a,b,s;
+    printf("enter the two number ");
+    scanf("%d %d",&a,&b);
+    s=a/b;
+    printf("the division is %d",s);
+}
+    
